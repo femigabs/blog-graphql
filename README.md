@@ -10,7 +10,7 @@ To get a copy of this project up and running on your local machine for testing a
 
 ## Prerequisites
 
-1. Node.js (v8.12.0 or higher) and npm (6.4.1 or higher) installed on your local machine. Run node -v and npm -v in your terminal to confirm that you have them installed
+1. Node.js (v10.24.1 or higher) and npm (6.14.12 or higher) installed on your local machine. Run node -v and npm -v in your terminal to confirm that you have them installed
 
 2. GIT and Bash
 
@@ -43,8 +43,8 @@ To update your `npm`, run the following command.
 
 ## Project Install
 
-    $ git clone https://github.com/femigabs/wallet-system.git
-    $ cd account-manager
+    $ git clone https://github.com/femigabs/blog-graphql.git
+    $ cd blog-graphql
     $ npm install
 
 ## Configure app
@@ -56,11 +56,6 @@ Create a `.env` file and add the environment variables described in the `.env.ex
 ## Running the project
 
     $ npm run dev (development)
-
-## Running migrations
-
-    $ npm run migrate:up
-    $ npm run migrate:down
 
 ## Running tests
 
@@ -77,9 +72,6 @@ Create a `.env` file and add the environment variables described in the `.env.ex
 - MongoDb
 - Supertest and Jest
 - Postman
-
-## API Documentation
-- postman: https://documenter.getpostman.com/view/11087517/UyrAFxRm
 
 ## Copyright
 
